@@ -1,25 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Struts_Problem_Tutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pNT-pZ-UiI">
+                                <rect key="frame" x="29" y="39" width="137" height="283"/>
+                                <color key="backgroundColor" red="0.94117653369999998" green="0.87843143940000001" blue="0.32549020649999999" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cw6-S0-OsJ">
+                                <rect key="frame" x="205" y="39" width="139" height="283"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNf-Ha-JzX">
+                                <rect key="frame" x="29" y="359" width="310" height="282"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pNT-pZ-UiI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="6sC-g8-wgg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DNf-Ha-JzX" secondAttribute="trailing" constant="20" id="Cdg-p5-nKW"/>
+                            <constraint firstItem="cw6-S0-OsJ" firstAttribute="leading" secondItem="pNT-pZ-UiI" secondAttribute="trailing" constant="35" id="IaW-AF-GCj"/>
+                            <constraint firstItem="pNT-pZ-UiI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="JYd-ep-kQ8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DNf-Ha-JzX" secondAttribute="bottom" constant="26" id="KeN-pV-kqf"/>
+                            <constraint firstItem="cw6-S0-OsJ" firstAttribute="height" secondItem="pNT-pZ-UiI" secondAttribute="height" id="Pcx-bP-fV8"/>
+                            <constraint firstItem="DNf-Ha-JzX" firstAttribute="height" secondItem="pNT-pZ-UiI" secondAttribute="height" id="RkK-xr-COH"/>
+                            <constraint firstItem="DNf-Ha-JzX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="Vuc-gu-qfc"/>
+                            <constraint firstItem="cw6-S0-OsJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="dyQ-VR-5AD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DNf-Ha-JzX" secondAttribute="bottom" constant="26" id="mta-lg-upk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cw6-S0-OsJ" secondAttribute="trailing" constant="20" id="xCO-Ud-mcl"/>
+                            <constraint firstItem="cw6-S0-OsJ" firstAttribute="width" secondItem="pNT-pZ-UiI" secondAttribute="width" id="xgR-fr-HJa"/>
+                            <constraint firstItem="DNf-Ha-JzX" firstAttribute="top" secondItem="pNT-pZ-UiI" secondAttribute="bottom" constant="37" id="ycm-tu-5uO"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="379.5" y="314.5"/>
         </scene>
     </scenes>
 </document>
