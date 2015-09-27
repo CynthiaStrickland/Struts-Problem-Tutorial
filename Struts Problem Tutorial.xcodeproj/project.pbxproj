@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8673831BB7B80E00B04A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8673821BB7B80E00B04A97 /* AppDelegate.swift */; };
+		3D8673851BB7B80E00B04A97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8673841BB7B80E00B04A97 /* ViewController.swift */; };
+		3D8673881BB7B80E00B04A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8673861BB7B80E00B04A97 /* Main.storyboard */; };
+		3D86738A1BB7B80E00B04A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8673891BB7B80E00B04A97 /* Assets.xcassets */; };
+		3D86738D1BB7B80E00B04A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D86738B1BB7B80E00B04A97 /* LaunchScreen.storyboard */; };
+		3D8673981BB7B80E00B04A97 /* Struts_Problem_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8673971BB7B80E00B04A97 /* Struts_Problem_TutorialTests.swift */; };
+		3D8673A31BB7B80F00B04A97 /* Struts_Problem_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8673A21BB7B80F00B04A97 /* Struts_Problem_TutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8673941BB7B80E00B04A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8673771BB7B80E00B04A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D86737E1BB7B80E00B04A97;
+			remoteInfo = "Struts Problem Tutorial";
+		};
+		3D86739F1BB7B80F00B04A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8673771BB7B80E00B04A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D86737E1BB7B80E00B04A97;
+			remoteInfo = "Struts Problem Tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D86737F1BB7B80E00B04A97 /* Struts Problem Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Struts Problem Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8673821BB7B80E00B04A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D8673841BB7B80E00B04A97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D8673871BB7B80E00B04A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D8673891BB7B80E00B04A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D86738C1BB7B80E00B04A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D86738E1BB7B80E00B04A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8673931BB7B80E00B04A97 /* Struts Problem TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Struts Problem TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8673971BB7B80E00B04A97 /* Struts_Problem_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struts_Problem_TutorialTests.swift; sourceTree = "<group>"; };
+		3D8673991BB7B80E00B04A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D86739E1BB7B80F00B04A97 /* Struts Problem TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Struts Problem TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8673A21BB7B80F00B04A97 /* Struts_Problem_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struts_Problem_TutorialUITests.swift; sourceTree = "<group>"; };
+		3D8673A41BB7B80F00B04A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D86737C1BB7B80E00B04A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8673901BB7B80E00B04A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D86739B1BB7B80F00B04A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8673761BB7B80E00B04A97 = {
+			isa = PBXGroup;
+			children = (
+				3D8673811BB7B80E00B04A97 /* Struts Problem Tutorial */,
+				3D8673961BB7B80E00B04A97 /* Struts Problem TutorialTests */,
+				3D8673A11BB7B80F00B04A97 /* Struts Problem TutorialUITests */,
+				3D8673801BB7B80E00B04A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8673801BB7B80E00B04A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D86737F1BB7B80E00B04A97 /* Struts Problem Tutorial.app */,
+				3D8673931BB7B80E00B04A97 /* Struts Problem TutorialTests.xctest */,
+				3D86739E1BB7B80F00B04A97 /* Struts Problem TutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8673811BB7B80E00B04A97 /* Struts Problem Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				3D8673821BB7B80E00B04A97 /* AppDelegate.swift */,
+				3D8673841BB7B80E00B04A97 /* ViewController.swift */,
+				3D8673861BB7B80E00B04A97 /* Main.storyboard */,
+				3D8673891BB7B80E00B04A97 /* Assets.xcassets */,
+				3D86738B1BB7B80E00B04A97 /* LaunchScreen.storyboard */,
+				3D86738E1BB7B80E00B04A97 /* Info.plist */,
+			);
+			path = "Struts Problem Tutorial";
+			sourceTree = "<group>";
+		};
+		3D8673961BB7B80E00B04A97 /* Struts Problem TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8673971BB7B80E00B04A97 /* Struts_Problem_TutorialTests.swift */,
+				3D8673991BB7B80E00B04A97 /* Info.plist */,
+			);
+			path = "Struts Problem TutorialTests";
+			sourceTree = "<group>";
+		};
+		3D8673A11BB7B80F00B04A97 /* Struts Problem TutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8673A21BB7B80F00B04A97 /* Struts_Problem_TutorialUITests.swift */,
+				3D8673A41BB7B80F00B04A97 /* Info.plist */,
+			);
+			path = "Struts Problem TutorialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D86737E1BB7B80E00B04A97 /* Struts Problem Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8673A71BB7B80F00B04A97 /* Build configuration list for PBXNativeTarget "Struts Problem Tutorial" */;
+			buildPhases = (
+				3D86737B1BB7B80E00B04A97 /* Sources */,
+				3D86737C1BB7B80E00B04A97 /* Frameworks */,
+				3D86737D1BB7B80E00B04A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Struts Problem Tutorial";
+			productName = "Struts Problem Tutorial";
+			productReference = 3D86737F1BB7B80E00B04A97 /* Struts Problem Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D8673921BB7B80E00B04A97 /* Struts Problem TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8673AA1BB7B80F00B04A97 /* Build configuration list for PBXNativeTarget "Struts Problem TutorialTests" */;
+			buildPhases = (
+				3D86738F1BB7B80E00B04A97 /* Sources */,
+				3D8673901BB7B80E00B04A97 /* Frameworks */,
+				3D8673911BB7B80E00B04A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8673951BB7B80E00B04A97 /* PBXTargetDependency */,
+			);
+			name = "Struts Problem TutorialTests";
+			productName = "Struts Problem TutorialTests";
+			productReference = 3D8673931BB7B80E00B04A97 /* Struts Problem TutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D86739D1BB7B80F00B04A97 /* Struts Problem TutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8673AD1BB7B80F00B04A97 /* Build configuration list for PBXNativeTarget "Struts Problem TutorialUITests" */;
+			buildPhases = (
+				3D86739A1BB7B80F00B04A97 /* Sources */,
+				3D86739B1BB7B80F00B04A97 /* Frameworks */,
+				3D86739C1BB7B80F00B04A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8673A01BB7B80F00B04A97 /* PBXTargetDependency */,
+			);
+			name = "Struts Problem TutorialUITests";
+			productName = "Struts Problem TutorialUITests";
+			productReference = 3D86739E1BB7B80F00B04A97 /* Struts Problem TutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8673771BB7B80E00B04A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cynthia Whitlatch";
+				TargetAttributes = {
+					3D86737E1BB7B80E00B04A97 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3D8673921BB7B80E00B04A97 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3D86737E1BB7B80E00B04A97;
+					};
+					3D86739D1BB7B80F00B04A97 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3D86737E1BB7B80E00B04A97;
+					};
+				};
+			};
+			buildConfigurationList = 3D86737A1BB7B80E00B04A97 /* Build configuration list for PBXProject "Struts Problem Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D8673761BB7B80E00B04A97;
+			productRefGroup = 3D8673801BB7B80E00B04A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D86737E1BB7B80E00B04A97 /* Struts Problem Tutorial */,
+				3D8673921BB7B80E00B04A97 /* Struts Problem TutorialTests */,
+				3D86739D1BB7B80F00B04A97 /* Struts Problem TutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D86737D1BB7B80E00B04A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D86738D1BB7B80E00B04A97 /* LaunchScreen.storyboard in Resources */,
+				3D86738A1BB7B80E00B04A97 /* Assets.xcassets in Resources */,
+				3D8673881BB7B80E00B04A97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8673911BB7B80E00B04A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D86739C1BB7B80F00B04A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D86737B1BB7B80E00B04A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8673851BB7B80E00B04A97 /* ViewController.swift in Sources */,
+				3D8673831BB7B80E00B04A97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D86738F1BB7B80E00B04A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8673981BB7B80E00B04A97 /* Struts_Problem_TutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D86739A1BB7B80F00B04A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8673A31BB7B80F00B04A97 /* Struts_Problem_TutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8673951BB7B80E00B04A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D86737E1BB7B80E00B04A97 /* Struts Problem Tutorial */;
+			targetProxy = 3D8673941BB7B80E00B04A97 /* PBXContainerItemProxy */;
+		};
+		3D8673A01BB7B80F00B04A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D86737E1BB7B80E00B04A97 /* Struts Problem Tutorial */;
+			targetProxy = 3D86739F1BB7B80F00B04A97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D8673861BB7B80E00B04A97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8673871BB7B80E00B04A97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D86738B1BB7B80E00B04A97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D86738C1BB7B80E00B04A97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D8673A51BB7B80F00B04A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D8673A61BB7B80F00B04A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D8673A81BB7B80F00B04A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Struts Problem Tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.Struts-Problem-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D8673A91BB7B80F00B04A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Struts Problem Tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.Struts-Problem-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D8673AB1BB7B80F00B04A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Struts Problem TutorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.Struts-Problem-TutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Struts Problem Tutorial.app/Struts Problem Tutorial";
+			};
+			name = Debug;
+		};
+		3D8673AC1BB7B80F00B04A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Struts Problem TutorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.Struts-Problem-TutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Struts Problem Tutorial.app/Struts Problem Tutorial";
+			};
+			name = Release;
+		};
+		3D8673AE1BB7B80F00B04A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Struts Problem TutorialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.Struts-Problem-TutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Struts Problem Tutorial";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3D8673AF1BB7B80F00B04A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Struts Problem TutorialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.Struts-Problem-TutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Struts Problem Tutorial";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D86737A1BB7B80E00B04A97 /* Build configuration list for PBXProject "Struts Problem Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8673A51BB7B80F00B04A97 /* Debug */,
+				3D8673A61BB7B80F00B04A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8673A71BB7B80F00B04A97 /* Build configuration list for PBXNativeTarget "Struts Problem Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8673A81BB7B80F00B04A97 /* Debug */,
+				3D8673A91BB7B80F00B04A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D8673AA1BB7B80F00B04A97 /* Build configuration list for PBXNativeTarget "Struts Problem TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8673AB1BB7B80F00B04A97 /* Debug */,
+				3D8673AC1BB7B80F00B04A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D8673AD1BB7B80F00B04A97 /* Build configuration list for PBXNativeTarget "Struts Problem TutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8673AE1BB7B80F00B04A97 /* Debug */,
+				3D8673AF1BB7B80F00B04A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D8673771BB7B80E00B04A97 /* Project object */;
+}
